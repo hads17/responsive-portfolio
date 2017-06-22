@@ -175,7 +175,7 @@ a {
 	}
 }
 	
-@media screen (max-width: 768px) {
+@media (max-width: 768px) {
 	.name {
 		margin-left: 100px;
 	}
@@ -186,6 +186,16 @@ a {
 
 }
 
-@media screen (max-width: 640px) {
+@media (max-width: 640px) {
+	.name {
+		margin-left: 0px;
+	}
 
+	.content {
+		margin-left: 0px;
+	}
+
+	.connect {
+		margin-left: 0px;
+	}
 }

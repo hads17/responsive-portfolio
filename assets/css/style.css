@@ -173,6 +173,9 @@ a {
 	.connect {
 		margin-right: 270px;
 	}
+	.container {
+		margin-left: 270px;
+	}
 }
 	
 @media (max-width: 768px) {
@@ -183,7 +186,9 @@ a {
 	.content {
 		margin-left: 100px;
 	}
-
+	.container {
+		margin-left: 100px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -196,6 +201,11 @@ a {
 	}
 
 	.connect {
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+	.container {
 		margin-left: 0px;
 	}
 }
